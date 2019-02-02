@@ -1,5 +1,8 @@
 #!/bin/sh
-# Copyright 2018 <clement.royer@epitech.eu>
+## EPITECH PROJECT, 2019
+## 
+## Clément ROYER
+## clement.royer@epitech.eu
 
 NICK="YOURTWITCHNAME"
 PASS="oauth:URETOKEN"
