@@ -1,0 +1,36 @@
+>> telnet irc.twitch.tv 6667
+>> PASS {TOKEN}
+>> NICK Cimrnt
+
+>> CAP REQ :twitch.tv/membership
+
+>> JOIN #solary
+
+>> PRIVMSG #solary {msg}
+
+
+
+
+Link for token : https://twitchapps.com/tmi/#access_token=92dge3g7vkejdswv8cof619t8cz024&scope=chat%3Aread+chat%3Aedit+channel%3Amoderate+whispers%3Aread+whispers%3Aedit&token_type=bearer
+
+
+SETUP MESSAGE RECU : :tmi.twitch.tv 001 cimrnt :Welcome, GLHF! == GOOD CONNECTION
+JOIN LOBBY MESSAGE RECU : :cimrnt!cimrnt@cimrnt.tmi.twitch.tv JOIN #solary
+ADMIN PRESENT : :jtv MODE #solary +o ereniaa
+STRUCT MESSAGE RECU : :teo44202!teo44202@teo44202.tmi.twitch.tv PRIVMSG #solary :1VS9
+
+
+
+001 join
+002 host
+003 comment_from_serv
+004 ???
+375 ???
+372 useless
+376 ???
+CAP cap
+JOIN join
+353 1 = mod 2 = my name
+366 end of name
+MODE mod on by on 
+PRIVMSG tchat msg
